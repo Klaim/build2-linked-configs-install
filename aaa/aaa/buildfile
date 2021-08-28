@@ -1,5 +1,5 @@
 libs =
-#import libs += libhello%lib{hello}
+import libs += bbb%libs{bbb} # forcing usage of shared library for demo
 
 exe{aaa}: {hxx ixx txx cxx}{**} $libs testscript
 
